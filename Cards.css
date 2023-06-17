@@ -2,7 +2,8 @@
 
 body {
   background: #dfc2f2;
-  background-image: linear-gradient(to right, #ffffb3, #ffe6e6);
+  /* background-image: linear-gradient(to right, #ffffb3, #ffe6e6); */
+  background-image: linear-gradient(#4481eb, #fff);
   background-attachment: fixed;
   background-size: cover;
   /* width: 20%; */

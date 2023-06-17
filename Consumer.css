@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.nav {
+  background-color: black;
+
+  /* padding: 1em; */
+}
+
+.ul-nav {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  color: aliceblue;
+  font-size: 1.5rem;
+  gap: 1em;
+}
+
+.ul-nav li {
+  text-decoration: none;
+}
+
+li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+li:hover,
+li a:hover {
+  transform: scale(1.2);
+  color: hsla(208, 100%, 97%, 0.87);
+}
+
+/* body */
+/* .cards {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+} */
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+.card {
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+}
+
+img {
+  display: inline;
+  width: 50%;
+  height: auto;
+}
